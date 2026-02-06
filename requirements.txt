@@ -1,0 +1,88 @@
+# =====================================================================
+# GLM-OCR Web UI 依赖列表
+# GLM-OCR Web UI Dependencies
+# =====================================================================
+# 安装命令 | Installation command:
+# pip install -r requirements.txt
+# =====================================================================
+
+# Web UI 框架 | Web UI Framework
+# Gradio - 现代化的机器学习 Web 界面框架
+# Modern machine learning web interface framework
+gradio>=5.0.0
+
+# HTTP 客户端 | HTTP Client
+# requests - 简单易用的 HTTP 库
+# Simple and elegant HTTP library
+requests>=2.31.0
+
+# 图像处理 | Image Processing
+# Pillow - Python Imaging Library 的友好分支
+# Python Imaging Library fork
+Pillow>=10.0.0
+
+# 环境变量管理 | Environment Variable Management
+# python-dotenv - 从 .env 文件加载环境变量
+# Load environment variables from .env file
+python-dotenv>=1.0.0
+
+# PDF 处理 | PDF Processing
+# pypdf - 纯 Python PDF 库
+# Pure Python PDF library
+pypdf>=4.0.0
+
+# Word 文档处理 | Word Document Processing
+# python-docx - 读取和写入 Word 文档
+# Read and write Word documents
+python-docx>=1.1.0
+
+# PDF 转图片 | PDF to Image Conversion
+# pdf2image - 将 PDF 页面转换为图片
+# Convert PDF pages to images
+pdf2image>=1.16.0
+
+# =====================================================================
+# 可选依赖 | Optional Dependencies
+# =====================================================================
+# 以下依赖用于特定功能，按需安装
+# The following dependencies are for specific features, install as needed
+
+# 测试框架 | Testing Framework
+# pytest - 简单高效的测试框架
+# Simple and efficient testing framework
+# pytest>=8.0.0
+
+# 类型检查 | Type Checking
+# mypy - 静态类型检查器
+# Static type checker
+# mypy>=1.8.0
+
+# 代码格式化 | Code Formatting
+# black - 代码格式化工具
+# Code formatter
+# black>=24.0.0
+
+# 异步支持 | Async Support
+# aiohttp - 异步 HTTP 客户端/服务器
+# Asynchronous HTTP client/server
+# aiohttp>=3.9.0
+
+# 日志管理 | Logging
+# loguru - 更好的 Python 日志
+# Better Python logging
+# loguru>=0.7.0
+
+# =====================================================================
+# 系统依赖（需要单独安装）| System Dependencies
+# =====================================================================
+# pdf2image 需要系统级 poppler 库
+# pdf2image requires system-level poppler library
+#
+# Ubuntu/Debian:
+# sudo apt-get install poppler-utils
+#
+# macOS:
+# brew install poppler
+#
+# Windows:
+# 下载地址 | Download: https://github.com/oschwartz10612/poppler-windows/releases/
